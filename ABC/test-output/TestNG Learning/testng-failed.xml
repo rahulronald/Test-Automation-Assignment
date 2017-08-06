@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Learning]">
+  <test name="Validate Titles Test(failed)">
+    <classes>
+      <class name="testCases.TestCaseOne">
+        <methods>
+          <include name="setUp"/>
+          <include name="testOne"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TestCaseOne -->
+    </classes>
+  </test> <!-- Validate Titles Test(failed) -->
+</suite> <!-- Failed suite [TestNG Learning] -->

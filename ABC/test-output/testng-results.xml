@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ABC News Test Assignment" duration-ms="256006" started-at="2017-08-06T15:16:58Z" finished-at="2017-08-06T15:21:14Z">
+    <groups>
+    </groups>
+    <test name="ABC News Test" duration-ms="98709" started-at="2017-08-06T15:16:58Z" finished-at="2017-08-06T15:18:37Z">
+      <class name="testCases.TestABCNews">
+        <test-method status="PASS" signature="LaunchABCNewsAndValidate()[pri:1, instance:testCases.TestABCNews@2525ff7e]" name="LaunchABCNewsAndValidate" duration-ms="10814" started-at="2017-08-07T01:16:58Z" finished-at="2017-08-07T01:17:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchABCNewsAndValidate -->
+        <test-method status="PASS" signature="ValidateABCNewsBanner()[pri:2, instance:testCases.TestABCNews@2525ff7e]" name="ValidateABCNewsBanner" duration-ms="1403" started-at="2017-08-07T01:17:09Z" finished-at="2017-08-07T01:17:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateABCNewsBanner -->
+        <test-method status="PASS" signature="LoadJustInMenu()[pri:3, instance:testCases.TestABCNews@2525ff7e]" name="LoadJustInMenu" duration-ms="8579" started-at="2017-08-07T01:17:11Z" finished-at="2017-08-07T01:17:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadJustInMenu -->
+        <test-method status="PASS" signature="JustInMenuPageContentValidation()[pri:4, instance:testCases.TestABCNews@2525ff7e]" name="JustInMenuPageContentValidation" duration-ms="2994" started-at="2017-08-07T01:17:19Z" finished-at="2017-08-07T01:17:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JustInMenuPageContentValidation -->
+        <test-method status="PASS" signature="ABCSNewsVideoTest()[pri:5, instance:testCases.TestABCNews@2525ff7e]" name="ABCSNewsVideoTest" duration-ms="40220" started-at="2017-08-07T01:17:22Z" finished-at="2017-08-07T01:18:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ABCSNewsVideoTest -->
+        <test-method status="PASS" signature="ABCNewsGallaryTest()[pri:6, instance:testCases.TestABCNews@2525ff7e]" name="ABCNewsGallaryTest" duration-ms="34330" started-at="2017-08-07T01:18:02Z" finished-at="2017-08-07T01:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ABCNewsGallaryTest -->
+      </class> <!-- testCases.TestABCNews -->
+    </test> <!-- ABC News Test -->
+    <test name="ABC Radio Test" duration-ms="155539" started-at="2017-08-06T15:18:37Z" finished-at="2017-08-06T15:21:12Z">
+      <class name="testCases.TestABCRadio">
+        <test-method status="PASS" signature="LaunchABCRadioAndValidate()[pri:1, instance:testCases.TestABCRadio@2abf4075]" name="LaunchABCRadioAndValidate" duration-ms="16257" started-at="2017-08-07T01:18:37Z" finished-at="2017-08-07T01:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchABCRadioAndValidate -->
+        <test-method status="PASS" signature="ProgramGuideTest()[pri:2, instance:testCases.TestABCRadio@2abf4075]" name="ProgramGuideTest" duration-ms="20575" started-at="2017-08-07T01:18:53Z" finished-at="2017-08-07T01:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProgramGuideTest -->
+        <test-method status="PASS" signature="SearchContentAndValidate()[pri:3, instance:testCases.TestABCRadio@2abf4075]" name="SearchContentAndValidate" duration-ms="15067" started-at="2017-08-07T01:19:14Z" finished-at="2017-08-07T01:19:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchContentAndValidate -->
+        <test-method status="PASS" signature="SocialMediaIconTest()[pri:4, instance:testCases.TestABCRadio@2abf4075]" name="SocialMediaIconTest" duration-ms="55760" started-at="2017-08-07T01:19:29Z" finished-at="2017-08-07T01:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SocialMediaIconTest -->
+        <test-method status="PASS" signature="DownloadAudioTest()[pri:5, instance:testCases.TestABCRadio@2abf4075]" name="DownloadAudioTest" duration-ms="16895" started-at="2017-08-07T01:20:25Z" finished-at="2017-08-07T01:20:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadAudioTest -->
+        <test-method status="PASS" signature="ListenAudioTest()[pri:6, instance:testCases.TestABCRadio@2abf4075]" name="ListenAudioTest" duration-ms="21744" started-at="2017-08-07T01:20:41Z" finished-at="2017-08-07T01:21:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListenAudioTest -->
+        <test-method status="PASS" signature="ValidateListenAudioTest()[pri:7, instance:testCases.TestABCRadio@2abf4075]" name="ValidateListenAudioTest" duration-ms="9214" started-at="2017-08-07T01:21:03Z" finished-at="2017-08-07T01:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateListenAudioTest -->
+      </class> <!-- testCases.TestABCRadio -->
+    </test> <!-- ABC Radio Test -->
+    <test name="ABC News API Integration Test" duration-ms="1511" started-at="2017-08-06T15:21:12Z" finished-at="2017-08-06T15:21:14Z">
+      <class name="testCases.TestWebServices">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.TestWebServices@7671cb68]" name="setUp" is-config="true" duration-ms="45267" started-at="2017-08-07T01:16:13Z" finished-at="2017-08-07T01:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="WebServiceTesting()[pri:1, instance:testCases.TestWebServices@7671cb68]" name="WebServiceTesting" duration-ms="1508" started-at="2017-08-07T01:21:13Z" finished-at="2017-08-07T01:21:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebServiceTesting -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TestWebServices@7671cb68]" name="tearDown" is-config="true" duration-ms="6654" started-at="2017-08-07T01:21:14Z" finished-at="2017-08-07T01:21:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TestWebServices -->
+    </test> <!-- ABC News API Integration Test -->
+  </suite> <!-- ABC News Test Assignment -->
+</testng-results>

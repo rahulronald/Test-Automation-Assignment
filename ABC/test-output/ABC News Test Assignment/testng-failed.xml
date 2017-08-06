@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ABC News Test Assignment]">
+  <test name="ABC News Test(failed)">
+    <classes>
+      <class name="testCases.TestABCNews">
+        <methods>
+          <include name="ABCSNewsVideoTest"/>
+          <include name="LaunchABCNewsAndValidate"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="LoadJustInMenu"/>
+          <include name="JustInMenuPageContentValidation"/>
+          <include name="ABCNewsGallaryTest"/>
+          <include name="ValidateABCNewsBanner"/>
+        </methods>
+      </class> <!-- testCases.TestABCNews -->
+    </classes>
+  </test> <!-- ABC News Test(failed) -->
+  <test name="ABC Radio Test(failed)">
+    <classes>
+      <class name="testCases.TestABCRadio">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="SocialMediaIconTest"/>
+          <include name="ListenAudioTest"/>
+          <include name="DownloadAudioTest"/>
+          <include name="LaunchABCRadioAndValidate"/>
+          <include name="ProgramGuideTest"/>
+          <include name="SearchContentAndValidate"/>
+          <include name="ValidateListenAudioTest"/>
+        </methods>
+      </class> <!-- testCases.TestABCRadio -->
+    </classes>
+  </test> <!-- ABC Radio Test(failed) -->
+</suite> <!-- Failed suite [ABC News Test Assignment] -->
