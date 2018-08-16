@@ -92,7 +92,7 @@ This solution is designed to conduct a **functional test** on [Mecca Website](ht
 ## Technology / Framework Used
 * Testing Framework as **Protractor**
 * Programming Language as **JavaScript**
-* Assertion & Test Runner Framework as **Jasmine**
+* Behaviour Driven Test Runner & Assertion Framework as **Jasmine**
 * Windows based Operating System
 
 ## Prerequisites
@@ -102,20 +102,20 @@ Things are required to support execution & steps to install these softwares:
 * Internet connection
 * Chrome browser
 
-Before installing any software, let's check whether any software is present on the system or not?
+### Before installing any software, let's check whether any software is present on the system or not?
 
-Command to check for Java: 
+* Command to check for Java: 
 ```Java -version```
 
-Command to check for node.js: 
+* Command to check for node.js: 
 ```node -v```
 
-Command to check for npm (Node Package Manager): 
+* Command to check for npm (Node Package Manager): 
 ```npm -v```
 
-If the result returned **“not recognised command”** message, then we need to install node.js package.
+If the result returned **“not recognised command”** message, then we need to install missing software.
 
-### Steps to install Node.js
+#### Steps to install Node.js
 Node.js can be download from the link: https://nodejs.org/en/download/
 * Simply, click on the **Windows Installer**
 * Double click on the downloaded **Windows Installer MSI Package** 
@@ -124,19 +124,19 @@ Node.js can be download from the link: https://nodejs.org/en/download/
 * It should now return the version number of installed node.js package
 * NPM is automatically installed along with node.js
 
-#### Check whether Node.js is installed successfully
+##### Check whether Node.js is installed successfully
 Command to check for node.js: 
 ```node -v```
 
 Command to check for npm (Node Package Manager): 
 ```npm -v```
 
-### Steps to install Java (JDK)
+#### Steps to install Java (JDK)
 Java can be download from the link: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 * Under section "Java SE Development Kit 8u181", **Accept** the License Agreement and download exe file for Windows
 * Follow the simple instructions ```next > next > next > finish```
 
-#### Set up Enivronment Variable for JDK
+##### Set up Enivronment Variable for JDK
 * Press "Windows" button on the keyboard & type **Edit the system environment variables** and click it
 * It will open ```System Properties``` pop up window
 * Click on **Environment Variables** button
@@ -145,7 +145,7 @@ Java can be download from the link: http://www.oracle.com/technetwork/java/javas
 * Add a new value for Path as **"%JAVA_HOME%\bin"** 
 * Save it and close the pop up window
 
-#### Check whether Java is installed successfully
+##### Check whether Java is installed successfully
 Command to check for Java: 
 ```java -version```
 
@@ -183,6 +183,17 @@ Also, at every important step, screenshots are captured and stored under Project
 
 ### System Log:
 System log can be seen on the command prompt while execution is in progress.
+
+## Framework Walkthrough
+### Spec Files 
+Each Spec file can be considered as Test Suite having multiple test cases (core code) in it. 
+It has **Describe** and **It** block which helps us to write test cases in a BDD framework.
+
+### Config File
+It is the heart of the project. It has all the configuration properties required within the project.
+
+### Package.json file 
+
 
 ## Licences
 * **No software requires any kind of licence hence does not include any licence cost.**
