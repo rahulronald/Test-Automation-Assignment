@@ -97,12 +97,15 @@ This solution is designed to conduct a **functional test** on [Mecca Website](ht
 
 ## Prerequisites
 Things are required to support execution & steps to install these softwares:
-* JavaScript
+* Java (JDK)
 * Node.js
 * Internet connection
-* Chrome / Firefox etc. browsers
+* Chrome browser
 
-Before installing Node.js, let's check whether node.js is present on the system or not?
+Before installing any software, let's check whether any software is present on the system or not?
+
+Command to check for Java: 
+```Java -version```
 
 Command to check for node.js: 
 ```node -v```
@@ -121,8 +124,30 @@ Node.js can be download from the link: https://nodejs.org/en/download/
 * It should now return the version number of installed node.js package
 * NPM is automatically installed along with node.js
 
-### Steps to install JavaScript
+#### Check whether Node.js is installed successfully
+Command to check for node.js: 
+```node -v```
 
+Command to check for npm (Node Package Manager): 
+```npm -v```
+
+### Steps to install Java (JDK)
+Java can be download from the link: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+* Under section "Java SE Development Kit 8u181", **Accept** the License Agreement and download exe file for Windows
+* Follow the simple instructions ```next > next > next > finish```
+
+#### Set up Enivronment Variable for JDK
+* Press "Windows" button on the keyboard & type **Edit the system environment variables** and click it
+* It will open ```System Properties``` pop up window
+* Click on **Environment Variables** button
+* Under **System Varible**, add new variable as **JAVA_HOME** and its value as **C:\Program Files\Java\jdk1.8.0_121** (it should match your local system folder name).
+* Under **System Variable**, search for **PATH** and select it & click "Edit" button
+* Add a new value for Path as **"%JAVA_HOME%\bin"** 
+* Save it and close the pop up window
+
+#### Check whether Java is installed successfully
+Command to check for Java: 
+```java -version```
 
 ## High Level Testing Scenario under Test
 * 
