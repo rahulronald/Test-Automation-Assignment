@@ -82,3 +82,90 @@ Also, at every important step, **screenshots** are captured and stored under `Pr
 Log files (**Application log & Selenium Log**) are also generated after the test run is completed, which will help the tester to analyse the test results and fix some code, in case of error.
 
 
+
+
+
+# Mecca - Test Automation 
+
+This solution is designed to conduct a **functional test** on [Mecca Website](http://Mecca.com.au). 
+
+## Technology / Framework Used
+* Testing Framework as **Protractor**
+* Programming Language as **JavaScript**
+* Assertion & Test Runner Framework as **Jasmine**
+* Windows based Operating System
+
+## Prerequisites
+Things are required to support execution & steps to install these softwares:
+* JavaScript
+* Node.js
+* Internet connection
+* Chrome / Firefox etc. browsers
+
+Before installing Node.js, let's check whether node.js is present on the system or not?
+
+Command to check for node.js: 
+```node -v```
+
+Command to check for npm (Node Package Manager): 
+```npm -v```
+
+If the result returned **“not recognised command”** message, then we need to install node.js package.
+
+### Steps to install Node.js
+Node.js can be download from the link: https://nodejs.org/en/download/
+* Simply, click on the **Windows Installer**
+* Double click on the downloaded **Windows Installer MSI Package** 
+* Follow the simple instructions ```next > next > next > finish```
+* Restart the command prompt and execute command ```node -v```
+* It should now return the version number of installed node.js package
+* NPM is automatically installed along with node.js
+
+### Steps to install JavaScript
+
+
+## High Level Testing Scenario under Test
+* 
+*
+*
+*
+*
+
+## How to Execute Functional Test
+### Download solution from Bitbucket
+* Open the Bitbucket link https://bitbucket.org/meccabrands/rahul-ronald/src/master/
+* Navigate to **Downloads** link on the left menu
+* Select the captcha checbox, I'm not a Robot and click on **Download Repository** link.
+* Create a local folder with the name as **"Mecca Test"**.
+* Copy the downloaded repository in the local folder and extract it on the root folder (Mecca Test)
+
+### Prepare Solution to start
+* Open command prompt, and navigate to Mecca Test folder by command ```cd C:\Softwares\Mecca Test```
+* Execute command ```npm install``` as this will **Download all dependencies** in your machine
+* Execute command ```npm start``` as this will start the **WebDriver Engine**
+
+### Run Functional Test 
+* Open another command prompt, and navigate to Mecca Test folder by command ```cd C:\Softwares\Mecca Test```
+* Execute command ```npm test``` as this will trigger **all the test cases**
+* Test Execution progress can be tracked on the command prompt itself
+
+## Test Results 
+### Test Report:
+After the test is completed, the Test Report is generated in the Workspace location under Project (Mecca Test) > target > reports > Test Report.html. You can open it in any browser to have a look for the Consolidated Test Report.
+
+### Test Result Screenshots:
+Also, at every important step, screenshots are captured and stored under Project (Mecca Test) > target > reports > screenShots folder location.
+
+### System Log:
+System log can be seen on the command prompt while execution is in progress.
+
+## Licences
+* **No software requires any kind of licence hence does not include any licence cost.**
+
+## Author
+* **Rahul Ronald**
+
+
+
+
+
